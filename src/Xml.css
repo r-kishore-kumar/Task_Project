@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .error-msg {
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  .data-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .data-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+    .app-container {
+      max-width: 90%;
+    }
+  
+    .btn {
+      padding: 15px 25px;
+      font-size: 1.2rem;
+    }
+  
+    .data-item {
+      font-size: 1.2rem;
+      padding: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 799px) {
+    .app-container {
+      padding: 10px;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .data-item {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  }
+  
+  @media only screen and (min-width: 1281px) {
+    .app-container {
+      max-width: 1200px;
+    }
+  
+    .btn {
+      padding: 18px 30px;
+      font-size: 1.3rem;
+    }
+  
+    .data-item {
+      font-size: 1.3rem;
+      padding: 15px;
+    }
+  }
+  

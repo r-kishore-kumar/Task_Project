@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+  }
+  
+  button, a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  button:hover, a:hover {
+    background-color: #45a049;
+  }
+  
+
+  .chart {
+    margin: 20px 0;
+  }
+  
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+    .chart-container {
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    h4 {
+      font-size: 1.5em;
+    }
+  
+    button, a {
+      padding: 12px 25px;
+      font-size: 1.2em;
+    }
+  
+    .chart {
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 799px) {
+    .chart-container {
+      max-width: 95%;
+      padding: 10px;
+    }
+  
+    h4 {
+      font-size: 1.2em;
+    }
+  
+    button, a {
+      width: 100%;
+      padding: 10px;
+      font-size: 1em;
+      text-align: center;
+    }
+  
+    .chart {
+      width: 100%;
+    }
+  }
+  
+  /* Larger Desktops */
+  @media only screen and (min-width: 1281px) {
+    .chart-container {
+      max-width: 1200px;
+    }
+  
+    h4 {
+      font-size: 2em;
+    }
+  
+    button, a {
+      padding: 15px 30px;
+      font-size: 1.3em;
+    }
+  }
+  
